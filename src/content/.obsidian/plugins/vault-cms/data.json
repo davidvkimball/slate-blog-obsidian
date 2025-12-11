@@ -1,0 +1,93 @@
+{
+  "projectRoot": "../..",
+  "configFilePath": "../../slate.config.ts",
+  "contentTypes": [
+    {
+      "id": "content-type-1765493138774-xykybpdxw",
+      "name": "Posts",
+      "folder": "post",
+      "fileOrganization": "file",
+      "enabled": true,
+      "indexFileName": "index",
+      "linkBasePath": "/blog/"
+    }
+  ],
+  "frontmatterProperties": {
+    "content-type-1765493138774-xykybpdxw": {
+      "titleProperty": "title",
+      "dateProperty": "pubDate",
+      "descriptionProperty": "description",
+      "tagsProperty": "tags",
+      "draftLogic": "true-draft",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n"
+    }
+  },
+  "preset": "vanilla",
+  "enableWYSIWYG": true,
+  "enabledPlugins": [
+    "astro-composer",
+    "bases-cms",
+    "cmdr",
+    "new-tab-default-page",
+    "editing-toolbar",
+    "homepage",
+    "obsidian-paste-image-rename",
+    "property-over-file-name",
+    "seo",
+    "simple-focus",
+    "statusbar-organizer",
+    "zenmode",
+    "iconic",
+    "settings-search",
+    "simple-banner",
+    "tag-wrangler",
+    "insert-unsplash-image",
+    "paste-image-into-property"
+  ],
+  "disabledPlugins": [],
+  "theme": "",
+  "basesCMSConfig": {
+    "views": []
+  },
+  "astroComposerConfig": {
+    "customContentTypes": [
+      {
+        "id": "content-type-1765493138774-xykybpdxw",
+        "name": "Posts",
+        "folder": "post",
+        "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n",
+        "enabled": true,
+        "linkBasePath": "/blog/",
+        "creationMode": "file",
+        "indexFileName": "index"
+      }
+    ],
+    "defaultTemplate": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ntags: []\npubDate: {{date}}\n---\n",
+    "configFilePath": "../../slate.config.ts",
+    "terminalProjectRootPath": "../..",
+    "postsFolder": "post",
+    "postsCreationMode": "file",
+    "postsIndexFileName": "index"
+  },
+  "seoConfig": {
+    "titleProperty": "title",
+    "descriptionProperty": "description",
+    "scanDirectories": "post",
+    "keywordProperty": "targetKeyword",
+    "useFilenameAsTitle": false,
+    "useFilenameAsSlug": true
+  },
+  "commanderConfig": {
+    "pageHeaderCommands": []
+  },
+  "propertyOverFileName": {
+    "propertyKey": "title"
+  },
+  "imageInserter": {
+    "valueFormat": "[[attachments/{image-url}]]",
+    "insertFormat": "[[attachments/{image-url}]]"
+  },
+  "runWizardOnStartup": false,
+  "wizardCompleted": true,
+  "defaultContentTypeId": "content-type-1765493138774-xykybpdxw"
+}
