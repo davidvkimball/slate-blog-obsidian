@@ -18,7 +18,7 @@
   "astro-composer",
   "property-over-file-name",
   "bases-cms",
-  "oxygen-settings",
   "obsidian42-brat",
-  "vault-cms"
+  "vault-cms",
+  "oxygen-settings"
 ]
